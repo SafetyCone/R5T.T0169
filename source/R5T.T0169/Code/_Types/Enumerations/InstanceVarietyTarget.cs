@@ -8,5 +8,9 @@ namespace R5T.T0169
         Type = 0,
         MethodsOfType,
         PropertiesOfType,
+        /// <summary>
+        /// For use with Documentation instances.
+        /// </summary>
+        StaticReadOnlyObjects
     }
 }
