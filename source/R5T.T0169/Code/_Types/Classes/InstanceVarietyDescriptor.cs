@@ -8,8 +8,11 @@ namespace R5T.T0169
 {
     public class InstanceVarietyDescriptor
     {
-        public AttributeTypeName MarkerAttributeTypeName { get; set; }
-        public InstanceVarietyName Name { get; set; }
-        public InstanceVarietyTarget Target { get; set; }
+        public IAttributeTypeName MarkerAttributeTypeName { get; set; }
+        public IInstanceVarietyName Name { get; set; }
+        /// <summary>
+        /// Allow multiple targets for an instance variety.
+        /// </summary>
+        public InstanceVarietyTarget[] Targets { get; set; }
     }
 }
