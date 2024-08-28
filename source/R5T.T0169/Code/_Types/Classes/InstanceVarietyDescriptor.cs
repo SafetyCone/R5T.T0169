@@ -1,11 +1,13 @@
 using System;
 
+using R5T.T0142;
 using R5T.T0161;
 using R5T.T0171;
 
 
 namespace R5T.T0169
 {
+    [DataTypeMarker]
     public class InstanceVarietyDescriptor
     {
         public IAttributeTypeName MarkerAttributeTypeName { get; set; }

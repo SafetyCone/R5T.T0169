@@ -1,11 +1,14 @@
 ﻿using System;
 
+using R5T.T0142;
+
 
 namespace R5T.T0169
 {
     /// <summary>
     /// Targets like types, methods-on-types, etc.
     /// </summary>
+    [DataTypeMarker]
     public enum InstanceVarietyTarget
     {
         Type = 0,
